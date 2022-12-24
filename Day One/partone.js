@@ -1,4 +1,4 @@
-const { readFileSync }  = require('node:fs');
+const { readFileSync }  = require('fs');
 
 const input = readFileSync('./dayone.txt', 'utf-8');
 
