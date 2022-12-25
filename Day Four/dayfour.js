@@ -3,7 +3,7 @@ const { readFileSync }  = require('fs');
 const pairs = readFileSync('dayfour.txt', { encoding: 'utf-8' })
 .split(/\r?\n/);
 
-function part1() {
+const part1 = () => {
 
 let fullyContainedPairs = 0;
 
@@ -25,7 +25,7 @@ console.log(fullyContainedPairs);
 
 }
 
-function part2() {
+const part2 = () => {
 
 let overlappingPairs = 0;
 

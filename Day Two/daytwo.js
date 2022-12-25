@@ -21,7 +21,7 @@ const mapInput = {
   Z: moves.scissors,
 };
 
-function score(opponentMove, ourMove) {
+const score = (opponentMove, ourMove) => {
   if (opponentMove === ourMove) {
     return ourMove + 3;
   }
@@ -65,7 +65,7 @@ const solution = {
   },
 };
 
-function part2() {
+const part2 = () => {
   const outcomes = lines.map((line) => {
     const opponentMove = mapInput[line[0]];
 

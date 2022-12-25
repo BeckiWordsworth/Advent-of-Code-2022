@@ -5,7 +5,7 @@ const itemLists = readFileSync('daythree.txt', { encoding: 'utf-8' })
   .trim() 
   .split("\n");
     
-function part1() {
+  const part1 = () => {
 
   let prioritySum = 0;
   
@@ -35,7 +35,7 @@ function part1() {
 }
 
 
-function part2() {
+const part2 = () => {
 
 let prioritySum = 0;
 
