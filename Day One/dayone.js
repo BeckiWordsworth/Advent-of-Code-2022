@@ -1,6 +1,6 @@
 const { readFileSync }  = require('fs');
 
-const input = readFileSync('./dayone.txt', 'utf-8');
+const input = readFileSync('dayone.txt', { encoding: 'utf-8' });
 
 const calorieGroups = input.split(/(?:\r?\n){2}/);
 
